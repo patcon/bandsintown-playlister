@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.10.2)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    json (1.7.7)
+    multi_json (1.5.1)
+    multi_xml (0.5.3)
+    oauth (0.4.7)
+    rake (10.0.3)
+    rdio (0.1.0)
+      json
+      oauth (>= 0.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  rake
+  rdio

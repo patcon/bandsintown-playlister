@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 
-desc "Testing task"
+desc "Gets tonights local artist listings for your area."
 task :get_local_listings do
   response_format = 'json'
 
